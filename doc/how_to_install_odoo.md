@@ -31,8 +31,6 @@ sudo nano odoo_install.sh
 Puede indicar que versión de Odoo quieres instalar, su ubicación, usuario, si quieres instalar Wkhtmltopdf, y los más importante, cuál es la contraseña de admin.
 
 ```bash
-################################################################################
-
 OE_USER="odoo"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
@@ -62,7 +60,8 @@ ENABLE_SSL="True"
 # Provide Email to register ssl certificate
 ADMIN_EMAIL="odoo@example.com"
 ```
-Si deseas intarlar la edición Enterprise, recuerda establecer la variable `IS_ENTERPRISE` a `True`.
+
+Si deseas instarlar la edición Enterprise, recuerda establecer la variable `IS_ENTERPRISE` a `True`.
 
 Tras hacer los cambios, `Guarda (ctrl+o)` y `Cierra (ctrl+x)` el editor.
 
@@ -86,7 +85,7 @@ Comprobamos que nos aparece en la consola los pasos que se van ejecuntando, inst
 
 ![script execution](img/script.png)
 
-Al finalizar, no informa del resultado:
+Al finalizar, nos informa del resultado:
 
 ```
 -----------------------------------------------------------
